@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="doctor.css" />
+    <title>DoutorNature</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <header>
+    <div class="header-nature">
+      <img
+        src="img/logo_Doutor-Nature.svg "
+        alt="logo doutor nature"
+        class="img header mx-auto d-block"
+        width="180px"
+      />
+    </div>
+  </header>
+
+  <body class="nature-c">
+    <section>
+      <div class="hidrat">
+        <img
+          src="img/background-desktop.png"
+          alt="background antes e depois"
+          width="100%"
+        />
+
+        <div class="cosmetico container col-md-8 col-lg-12">
+          <h1>O jeito certo de hidratar a pele tipo "crepe"</h1>
+
+          <p>E porque a indústria de cosméticos nunca falou sobre isso...</p>
+
+          <iframe
+            width="660"
+            height="395"
+            src="https://www.youtube.com/embed/5lDhkpEGgj8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            width="00px"
+          ></iframe>
+
+          <svg
+            id="arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            width="50px"
+            height="16"
+            fill="currentColor"
+            class="bi-bi-arrow-down"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+    <section class="doctor-h">
+      <div class="d-text container col-md-6">
+        <h1>Porque cremes não hidratam esse tipo de pele "crepe"?</h1>
+        <p>Descubra uma alternativa mais eficiente.</p>
+      </div>
+      <div class="doutor container col-md-10">
+        <p>
+          Em minhas pequisas descobri que
+          <b
+            >cremes hidratantes comuns, não funcionam em peles finas e
+            ressecadas</b
+          >, com aparência amassada, que popularmente são chamadas de "pele
+          crepe".<br /><br />
+
+          A razão disso é
+          <b
+            >porque existem pequenas rachaduras na superfície desse tipo de
+            pele</b
+          >,por onde a água vaza. Dessa forma,
+          <b>não adianta insistir aplicando cremes hidratantes</b>, pois sua
+          pele não vai reter essa hidratação.<br /><br />
+
+          já quando você ingere alguns compostos específicos, e passa a hidratar
+          sua pele de dentro por fora,
+          <b>aí o jogo vira a seu favor. Active Anti Ox</b> é uma fórmula que
+          desenvolvi junto de minha equipe, para ajudar a hidrata e recuperar a
+          sua pele <b>agindo de dentro pra fora.</b>
+        </p>
+        <img src="img/doutor-rafael.png" alt="doutor rafael" width="500px" />
+      </div>
+    </section>
+    <section class="promocional">
+      <div class="oferta-h">
+        <img src="img/mark.svg" />
+        <div class="oferta-promo">
+          <h2>OFERTA ÚNICA</h2>
+          <p>
+            <b>Voçe não verá preço menor em outro lugar</b>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="pacotepromo">
+      <div class="produto-promo">
+        <div class="produto-medicinal">
+          <h2>ESCOLHA SEU PACOTE</h2>
+
+          <button id="a1" onclick="boton()">
+            1
+            <p>caixas</p>
+          </button>
+
+          <button id="b1" onclick="botonfix()">
+            3
+            <p>caixas</p>
+          </button>
+
+          <button id="c1" onclick="botonlest() ">
+            6
+            <p>caixas</p>
+          </button>
+
+          <h3>R$ 194.00 por caixa</h3>
+          <h4>.</h4>
+          <h5><b>HOJE: 12x R$21.75</b></h5>
+          <p id="vista" class="a-vista">ou R$ 194,00 à vista</p>
+          <h6>Comprar agora</h6>
+        </div>
+
+        <div class="assinante">
+          <h2>ASSINE E ECONOMIZE (opicional)</h2>
+
+          <p onclick="assinateCkeckEconomize(this)">
+            <img
+              id="marcador"
+              src="img/check-icon.png"
+              alt="marcador em branco"
+            />
+            &nbsp;Desconto Máximo Aplicado
+          </p>
+
+          <p onclick="assinateCkeckEconomize(this)">
+            <img src="img/check-icon.png" alt="marcador em branco" />
+            &nbsp;Entrega Automática em sua Casa
+          </p>
+
+          <p onclick="assinateCkeckEconomize(this)">
+            <img src="img/check-icon.png" alt="marcador em branco" />
+            &nbsp;Menor Preço garantido / Sem Reajustes
+          </p>
+          <p onclick="assinateCkeckEconomize(this)">
+            <img src="img/check-icon.png" alt="marcador em branco" />
+            &nbsp;Cancele quando quiser / Sem Taxas
+          </p>
+          <div class="marcador-assinante">
+            <p onclick="checkUncheckAssinante(this)">
+              <img
+                id="marcadorgold"
+                src="img/check-icon-mobile.png"
+                alt="marcador amarelo em branco"
+              />
+              <b>SIM!</b> &nbsp; EU quero ser assinante e ganhar DESCONTO!
+            </p>
+          </div>
+        </div>
+        <div class="promocao-10"><img src="img\badge.png" width="100px" /></div>
+      </div>
+    </section>
+    <setion>
+      <div class="garantia container col-md-5">
+        <h1>Se não notar resultados, sua compra sai de graça</h1>
+        <p>sem perguntas, sem pegadinhas...</p>
+      </div>
+      <div class="selo-garantia container col-md-7">
+        <img
+          src="img/selo-garantia.png"
+          alt="selo de garantia "
+          width="150px"
+        />
+        <p>
+          Ao fazer o pedido de Active Anti Ox,<b
+            >está coberto pela nossa garantia de satisfaçao.</b
+          >
+          Esta é uma politica que adotamos, e cumprimos a risca, que visa
+          proteger nossso consumidores, para que eles possam experimentar nossa
+          fórmulas <b>livre de riscos.</b><br /><br />
+          Se após <b>30 dias</b> você não estiver completamente satisfeito/a,
+          <b>devolveremos seu dinheiro em forma de crédito,</b>para usar em
+          qualquer outro produto da Doutor Nature - sem perguntas, sem
+          burocracia.
+        </p>
+      </div>
+    </setion>
+    <section class="resultado">
+      <div class="resultado-titulo container col-md-6">
+        <h1>Veja alguns resultados do Active Anti Ox*</h1>
+        <p>Experimente e comece a hidratar sua pele de verdade</p>
+      </div>
+      <div class="resultado-img container col-md-8">
+        <img src="img/image7.jpg" width="390px" alt="antes e depois braco" />
+        <img src="img/image8.jpg" width="390px" alt="antes e depois labios" />
+      </div>
+      <div class="resultado-two container col-md-8">
+        <img
+          src="img/image9.jpg"
+          width="390px"
+          alt="antes e depois seios da face"
+        />
+        <img src="img/image10.jpg" width="390px" alt="antes e depois axila" />
+      </div>
+      <div class="resultado-text container col-md-7">
+        <p>
+          *Somos honestos e transparentes com nossos clientes, os resultados
+          podem variar de pessoa para pessoa, cada organismo é único e vai
+          reagir aos composto de forma diferente. Aproveite a nossa garantia
+          incondicional, compre e avalie você mesmo resultados. Esta fórmula foi
+          desenvolvida por médico e sua equipe de pesquisadores.
+        </p>
+      </div>
+    </section>
+    <section class="duvida-inicial">
+      <h1>Tire suas duvidas</h1>
+
+      <div class="duvida-a container col-md-7">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi-bi-plus"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+          />
+        </svg>
+        <a class="du-vi-da" onclick="esconderMostrar(this)">
+          Do que é feito o Active Anti-OX?
+
+          <p>
+            Colágeno, licopenoSintetico(Licopeno), Ácido Ascórbico(Vitamina
+            C),Acetato de Alfa-tocoferol(Vitamina E), Selenio, Capsulas:
+            gelatina e água
+          </p>
+        </a>
+        <hr />
+      </div>
+
+      <div class="duvida-b container col-md-7">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi-bi-plus"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+          />
+        </svg>
+        <a class="du-vi-da" onclick="esconderMostrar(this)"
+          >Como devo usar o Active Anti-OX?
+
+          <p>
+            Consumir 2 cápsulas por dia, de preferência no almoço. Produto
+            recomendado para adultos maiores de 19 anos
+          </p>
+        </a>
+
+        <hr />
+      </div>
+
+      <div class="duvida-c container col-md-7">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi-bi-plus"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+          />
+        </svg>
+        <a class="du-vi-da" onclick="esconderMostrar(this)"
+          >Active Anti-OX tem contra-indicação?
+
+          <p>
+            O Active Anti-Ox contém ingredientes naturais, é zero açúcar, sem
+            lactose, sem glúten e 100% seguro. Nossa fórmula é testada,
+            garantimos qualidade e pureza.
+          </p>
+        </a>
+
+        <hr />
+      </div>
+
+      <div class="duvida-d container col-md-7">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi-bi-plus"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+          />
+        </svg>
+        <a class="du-vi-da" onclick="esconderMostrar(this)"
+          >Precisa de prescrição médica para comprar?
+
+          <p>
+            Este suplemento não substitui a alimentação natural, por isso,
+            sempre recomendamos que você consulte o seu médico antes de usar
+            qualquer novo suplemento.
+          </p>
+        </a>
+
+        <hr />
+      </div>
+
+      <div class="duvida-e container col-md-7">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi-bi-plus"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+          />
+        </svg>
+        <a class="du-vi-da" onclick="esconderMostrar(this)"
+          >E se Active Anti-OX não funcionar para mim?
+
+          <p>
+            Sabemos que os organismos são diferentes entre si e podem reagir de
+            modo diferente aos mesmos compostos. Mesmo que todos possam se
+            beneficiar do colágeno, selênio e demais nutrientes desta fórmula,
+            estamos cientes de que os resultados podem variar. Assim, se você
+            estiver insatisfeito com este produto por qualquer motivo, estará
+            protegido e coberto pelo nosso Programa de Incentivo à Saúde.
+          </p>
+        </a>
+
+        <hr />
+      </div>
+
+      <div class="duvida-f container col-md-7">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi-bi-plus"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+          />
+        </svg>
+        <a class="du-vi-da" onclick="esconderMostrar(this)"
+          >Quando posso perceber resultados?
+
+          <p>
+            A maioria dos usuários notam uma pele mais firme e macia, além de
+            cabelos mais fortes ao longo dos primeiros 20 dias de uso. No
+            entanto, os resultados mais incríveis foram relatados após uso
+            consistente de 2-3 meses. Exatamente por isso, recomendamos
+            fortemente que escolha o "plano assinatura", para receber o Active
+            Anti-Ox mensalmente em sua casa com o menor preço praticado pela
+            Doutor Nature.
+          </p>
+        </a>
+
+        <hr />
+      </div>
+
+      <div class="duvida-g container col-md-7">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi-bi-plus"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+          />
+        </svg>
+        <a class="du-vi-da" onclick="esconderMostrar(this)"
+          >Além do Vital 4K o que mais vou receber na minha compra?
+
+          <p>
+            Ao realizar sua compra hoje também enviaremos para seu e-mail os
+            livros digitais best-seller da Doutor Nature:
+          </p>
+        </a>
+
+        <hr />
+      </div>
+
+      <div class="duvida-h container col-md-7">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi-bi-plus"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+          />
+        </svg>
+        <a class="du-vi-da" onclick="esconderMostrar(this)"
+          >Vocês tem uma garantia de satisfação?
+
+          <p>
+            Ao efetuar a compra do Active Anti-Ox, você está 100% protegido
+            pelos nossos termos de garantia. Para saber mais sobre isso, acesse
+            nossa página de Trocas e Devoluções.
+          </p>
+        </a>
+
+        <hr />
+      </div>
+    </section>
+    <section class="suplemento">
+      <div class="suplemento-a container col-md-6">
+        <h1>O melhor suplemento para hidratar sua pele</h1>
+        <p>hidratação de verdade</p>
+      </div>
+      <div class="suplemento-anti container col-md-10">
+        <div class="suplemento-atributo">
+          <p>
+            Os ingredientes poderosos do Active Anti Ox trabalham juntos para:
+          </p>
+          <ul>
+            <li>
+              <p>Devolver a firmeza na pele crepe</p>
+            </li>
+            <li>
+              <p>Preencher as rugas e rachaduras da superfície da pele</p>
+            </li>
+            <li>
+              <p>Reduzir linhas finas do rosto, pescoço e colo</p>
+            </li>
+            <li>
+              <p>Restabelecer o brilho natural da pele</p>
+            </li>
+            <li>
+              <p>Hidratando a pele, de dentro para fora</p>
+            </li>
+          </ul>
+        </div>
+        <div class="img-suplemento">
+          <img id="suplemento"
+            src="img/image11.jpg"
+            alt="suplemento com duas cartela de compromido"
+            width="400px"
+          />
+        </div>
+      </div>
+      <div class="suplemento-assinante">
+        <div class="suplemento-promo" >
+          <h2>ESCOLHA SEU PACOTE</h2>
+
+          <button class="butaoA" id="a1" onclick="boton()">
+            1
+            <p>caixas</p>
+          </button>
+
+          <button id="b1" onclick="botonfix()">
+            3
+            <p>caixas</p>
+          </button>
+
+          <button id="c1" onclick="botonlest() ">
+            6
+            <p>caixas</p>
+          </button>
+
+          <h3>R$ 194.00 por caixa</h3>
+
+          <h4>.</h4>
+
+          <h5><b>HOJE: 12x R$21.75</b></h5>
+
+          <p id="vista" class="outro-a-vista" >ou R$ 194,00 à vista</p>
+
+          <h6>Comprar agora</h6>
+        </div>
+
+        <div class="assinante-down" onclick="">
+          <h2>ASSINE E ECONOMIZE (opicional)</h2>
+
+          <p onclick="assinateCkeckEconomize(this)">
+            <img src="img/check-icon.png" alt="marcador em branco" />
+            &nbsp;Desconto Máximo Aplicado
+          </p>
+
+          <p onclick="assinateCkeckEconomize(this)">
+            <img src="img/check-icon.png" alt="marcador em branco" />
+
+            &nbsp;Entrega Automática em sua Casa
+          </p>
+
+          <p onclick="assinateCkeckEconomize(this)">
+            <img src="img/check-icon.png" alt="marcador em branco" />
+
+            &nbsp;Menor Preço garantido / Sem Reajustes
+          </p>
+
+          <p onclick="assinateCkeckEconomize(this)">
+            <img src="img/check-icon.png" alt="marcador em branco" />
+
+            &nbsp;Cancele quando quiser / Sem Taxas
+          </p>
+
+          <div class="marcador-assinante">
+            <p onclick="checkUncheckAssinante(this)">
+              <img
+                id="marcadorgold"
+                src="img/check-icon-mobile.png"
+                alt="marcador amarelo em branco"
+              />
+
+              <b>SIM!</b> &nbsp; EU quero ser assinante e ganhar DESCONTO!
+            </p>
+          </div>
+          <div class="assinante-desconto">
+            <img src="img\badge.png" width="100px" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="nature-footer">
+      <div class="nature-conclusao container col-md-8">
+        <p>
+          Este produto não se destinaa diagnosticar,tratar,curar ou previnir
+          qualquer doença, os resultados podem variar de pessoa para pessoa,
+          esses depoimentos podem ser ficticios, esta informaçoes não constitui
+          aconselhamento medico e não deve ser considerada como tal,consulte o
+          seu medico antes de modificar o seu regime médico regular. Este é um
+          advertorial e não um artigo de notícia ou blog. produto dispensado da
+          obrigatoriedade de registro conforme RDC 27/2010
+        </p>
+
+        <div class="logo-footer">
+          <img src="img/logo_footer-DoutorNature.svg" width="200px" />
+          <p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="13"
+              height="16"
+              fill="currentColor"
+              class="bi bi-c-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"
+              />
+            </svg>
+            2022 Doutor Nature-Todos os Direitos Reservados-Política de
+            Privacidade | Termos de Uso
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="nature.js"></script>
+  </body>
+  <!--  <script src="nature.js"></script> -->
+</html>
