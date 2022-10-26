@@ -10,7 +10,7 @@ var primeiroDesconto = document.querySelector("h4.p2");
 
 var segundoValor = document.querySelector("h5.p3");
 
-var segundoDesconto = document.querySelector(".a-vista");
+var segundoDesconto = document.querySelector(".a-vista, .outra-a-vista");
 
 
 
