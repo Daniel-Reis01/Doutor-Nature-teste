@@ -40,6 +40,7 @@ btn1.addEventListener("click", function () {
   primeiroDesconto.textContent = " ";
   segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoA;
   segundoDesconto.textContent = "ou R$ " + vistaProdutoA + " á vista";
+  console.log("evento de click=1 d-bug ");
 });
 
 btn2.addEventListener("click", () => {
@@ -47,7 +48,7 @@ btn2.addEventListener("click", () => {
   primeiroDesconto.textContent = "Economize " + " R$ " + descontoProdutoB;
   segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoB;
   segundoDesconto.textContent = "ou R$ " + vistaProdutoB + " á vista";
-  console.log("iai");
+  console.log("evento de click=2 d-bug ");
 });
 
 btn3.addEventListener("click", () => {
@@ -55,6 +56,7 @@ btn3.addEventListener("click", () => {
   primeiroDesconto.textContent = "Economize " + " R$ " + descontoProdutoC;
   segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoC;
   segundoDesconto.textContent = "ou R$ " + vistaProdutoC + " á vista";
+  console.log("evento de click=3 d-bug ");
 });
 
 function boton() {
