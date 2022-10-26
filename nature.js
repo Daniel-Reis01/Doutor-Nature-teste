@@ -4,13 +4,21 @@ seta.addEventListener("click", () => {
   window.scroll({ top: window.innerHeight });
 });
 
-var primeiroValor = document.querySelector("h3.p1");
+var primeiroValor = document.querySelector("h3");
+var primeirovalor = document.querySelector("h3.p1");
 
-var primeiroDesconto = document.querySelector("h4.p2");
+var primeiroDesconto = document.querySelector("h4");
+var primeirodesconto = document.querySelector("h4.p2");
 
-var segundoValor = document.querySelector("h5.p3");
+var segundoValor = document.querySelector("h5");
+var segundovalor = document.querySelector("h5.p3");
 
-var segundoDesconto = document.querySelector("p.a-vista");
+var segundoDesconto = document.querySelector(".a-vista");
+var segundodesconto = document.querySelector("#p4");
+
+
+
+
 
 const valorprodutoA = "194.00";
 const descontoProdutoA = 0;
@@ -27,11 +35,20 @@ const descontoProdutoC = 450.6;
 const promocaoProdutoC = 79.99;
 const vistaProdutoC = 713.4;
 
+
+
 function boton() {
+
   primeiroValor.textContent = "R$ " + valorprodutoA + " por caixa";
+  primeirovalor.textContent = "R$ " + valorprodutoA + " por caixa";
+
   primeiroDesconto.textContent = " ";
+  primeirodesconto.textContent = " ";
   segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoA;
+  segundovalor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoA;
+  
   segundoDesconto.textContent = "ou R$ " + vistaProdutoA + " á vista";
+  segundodesconto.textContent = "ou R$ " + vistaProdutoA + " á vista";
   console.log("evento de click=1 d-bug ");
 
   if (
@@ -52,10 +69,18 @@ function boton() {
 }
 
 function botonfix() {
+
   primeiroValor.textContent = "R$ " + valorProdutoB + " por caixa";
+  primeirovalor.textContent = "R$ " + valorProdutoB + " por caixa";
+
   primeiroDesconto.textContent = "Economize " + " R$ " + descontoProdutoB;
+  primeirodesconto.textContent = "Economize " + " R$ " + descontoProdutoB;
+
   segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoB;
+  segundovalor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoB;
+
   segundoDesconto.textContent = "ou R$ " + vistaProdutoB + " á vista";
+  segundodesconto.textContent = "ou R$ " + vistaProdutoB + " á vista";
   console.log("evento de click=2 d-bug ");
 
   if (
@@ -76,10 +101,18 @@ function botonfix() {
 }
 
 function botonlest() {
+
   primeiroValor.textContent = "R$ " + valorProdutoC + " por caixa";
+  primeirovalor.textContent = "R$ " + valorProdutoC + " por caixa";
+  
   primeiroDesconto.textContent = "Economize " + " R$ " + descontoProdutoC;
+  primeirodesconto.textContent = "Economize " + " R$ " + descontoProdutoC;
+
   segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoC;
+  segundovalor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoC;
+
   segundoDesconto.textContent = "ou R$ " + vistaProdutoC + " á vista";
+  segundodesconto.textContent = "ou R$ " + vistaProdutoC + " á vista";
   console.log("evento de click=3 d-bug ");
 
   if (

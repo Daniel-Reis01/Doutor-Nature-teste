@@ -218,7 +218,7 @@ header {
   font-size: 20px;
   color: #04a10ccc;
 }
-.outro-a-vista{
+.outro-a-vista {
   color: #04a10ccc;
   text-align: center;
 }
@@ -598,8 +598,8 @@ header {
 .assinante-desconto img {
   transform: translate(345px, -458px);
 }
-.assinante-down p{
-  cursor:pointer;
+.assinante-down p {
+  cursor: pointer;
 }
 .assinante-down {
   background-color: #f5f5f531;
@@ -903,7 +903,7 @@ footer {
     height: 320px;
     width: 300px;
   }
-  .a-vista{
+  .a-vista {
     font-size: 13px;
   }
 
@@ -943,7 +943,7 @@ footer {
   }
   .outra-a-vista {
     font-size: 13px;
-    margin-left:10px;
+    margin-left: 10px;
   }
 
   .assinante {
@@ -998,50 +998,50 @@ footer {
   }
   .suplemento-promo {
     width: 255px;
-    height:350px;
+    height: 350px;
   }
   .suplemento-promo h2 {
     font-size: 17px;
     width: 220px;
     height: 50px;
     margin-left: 19px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
     padding-top: 5%;
   }
   .suplemento-promo h6 {
     margin-left: 40px;
-    width:180px ;
-    margin-top:10px;
+    width: 180px;
+    margin-top: 10px;
   }
-  .suplemento-promo button{
-    width:60px ;
-    height:60px ;
-    font-size:20px;
-  }
-  .suplemento-promo button p{
+  .suplemento-promo button {
+    width: 60px;
+    height: 60px;
     font-size: 20px;
   }
-  .butaoA{
-    margin-left:20px;
+  .suplemento-promo button p {
+    font-size: 20px;
   }
-  .suplemento-promo h3{ 
+  .butaoA {
+    margin-left: 20px;
+  }
+  .suplemento-promo h3 {
     font-size: 18px;
     text-align: justify;
-    margin-left:50px;
+    margin-left: 50px;
   }
-  .suplemento-promo h4{
+  .suplemento-promo h4 {
     font-size: 18px;
     text-align: justify;
-    margin-left:50px;
+    margin-left: 50px;
   }
-  .suplemento-promo h5{
+  .suplemento-promo h5 {
     font-size: 18px;
-    text-align:justify ;
-    margin-left:50px;
-  }
-  .a-vista{
     text-align: justify;
-    margin-left:62px;
+    margin-left: 50px;
+  }
+  .a-vista {
+    text-align: justify;
+    margin-left: 62px;
   }
   .nature-conclusao p {
     font-size: 10px;
@@ -1056,14 +1056,14 @@ footer {
     height: 60px;
     margin-left: 20px;
   }
-  .assinante-down p{
-    font-size:11px;
+  .assinante-down p {
+    font-size: 11px;
   }
-  .assinante-down img{
-    width:15px;
+  .assinante-down img {
+    width: 15px;
   }
   .assinante-desconto img {
-    width:100px ;
+    width: 100px;
     transform: translate(155px, -340px);
   }
   .logo-footer img {
@@ -1175,7 +1175,7 @@ footer {
   }
   .a-vista {
     font-size: 12px;
-    margin-left:0px;
+    margin-left: 0px;
   }
   .assinante {
     padding-top: 2%;
@@ -1229,61 +1229,60 @@ footer {
   }
   .suplemento-promo {
     width: 200px;
-    height:300px;
+    height: 300px;
   }
   .suplemento-promo h2 {
     font-size: 13px;
     width: 160px;
     height: 35px;
     margin-left: 10px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
     padding-top: 5%;
   }
   .suplemento-promo h6 {
     margin-left: 20px;
-    width:150px ;
-    margin-top:10px;
-    padding-top:8px;
+    width: 150px;
+    margin-top: 10px;
+    padding-top: 8px;
     font-size: 18px;
   }
-  .suplemento-promo button{
-    width:50px ;
-    height:50px ;
-    font-size:15px;
-    margin-left:0px;
+  .suplemento-promo button {
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    margin-left: 0px;
   }
-  .suplemento-promo button p{
+  .suplemento-promo button p {
     font-size: 15px;
   }
-  .marcador-assinante{
-    width:160px;
+  .marcador-assinante {
+    width: 160px;
     padding-left: 10px;
   }
-  
-  .suplemento-promo h3{ 
+
+  .suplemento-promo h3 {
     font-size: 15px;
     text-align: justify;
-    margin-left:20px;
+    margin-left: 20px;
   }
-  .suplemento-promo h4{
+  .suplemento-promo h4 {
     font-size: 15px;
     text-align: justify;
-    margin-left:20px;
+    margin-left: 20px;
   }
-  .suplemento-promo h5{
+  .suplemento-promo h5 {
     font-size: 15px;
-    text-align:justify ;
-    margin-left:20px;
+    text-align: justify;
+    margin-left: 20px;
   }
   .outro-a-vista {
-    
-    margin-left:20px;
+    margin-left: 20px;
     font-size: 12px;
   }
-  #vista{
-    margin-left:0px ;
+  #vista {
+    margin-left: 0px;
   }
-  
+
   .nature-conclusao p {
     font-size: 10px;
   }
@@ -1297,15 +1296,15 @@ footer {
     height: 50px;
     margin-left: 10px;
   }
-  .assinante-down p{
-    font-size:9px;
-    margin-left:10px;
+  .assinante-down p {
+    font-size: 9px;
+    margin-left: 10px;
   }
-  .assinante-down img{
-    width:10px;
+  .assinante-down img {
+    width: 10px;
   }
   .assinante-desconto img {
-    width:100px ;
+    width: 100px;
     transform: translate(10px, -310px);
   }
   .logo-footer img {
@@ -1366,57 +1365,57 @@ footer {
   }
   .suplemento-promo {
     width: 200px;
-    height:260px;
+    height: 260px;
   }
   .suplemento-promo h2 {
     font-size: 11px;
     width: 135px;
     height: 40px;
     margin-left: 10px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
     padding-top: 5%;
   }
   .suplemento-promo h6 {
     margin-left: 10px;
-    width:130px ;
+    width: 130px;
     height: 30px;
     font-size: 12px;
-    margin-top:10px;
-    padding-top:5px;
+    margin-top: 10px;
+    padding-top: 5px;
   }
-  .suplemento-promo button{
-    width:40px ;
-    height:40px ;
-    font-size:12px;
-    margin-left:2px;
+  .suplemento-promo button {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+    margin-left: 2px;
   }
-  .suplemento-promo button p{
+  .suplemento-promo button p {
     font-size: 10px;
   }
-  
-  .suplemento-promo h3{ 
-    font-size: 10px;
-    text-align: justify;
-    margin-left:20px;
-  }
-  .suplemento-promo h4{
+
+  .suplemento-promo h3 {
     font-size: 10px;
     text-align: justify;
-    margin-left:20px;
+    margin-left: 20px;
   }
-  .suplemento-promo h5{
+  .suplemento-promo h4 {
     font-size: 10px;
-    text-align:justify ;
-    margin-left:20px;
+    text-align: justify;
+    margin-left: 20px;
+  }
+  .suplemento-promo h5 {
+    font-size: 10px;
+    text-align: justify;
+    margin-left: 20px;
   }
   .outro-a-vista {
-    margin-right:25px;
+    margin-right: 25px;
     font-size: 10px;
   }
-  #vista{
-    margin-left:0px ;
+  #vista {
+    margin-left: 0px;
   }
-  
+
   .nature-conclusao p {
     font-size: 10px;
   }
@@ -1430,14 +1429,14 @@ footer {
     height: 40px;
     margin-left: 15px;
   }
-  .assinante-down p{
-    font-size:7px;
+  .assinante-down p {
+    font-size: 7px;
   }
-  .assinante-down img{
-    width:10px;
+  .assinante-down img {
+    width: 10px;
   }
   .assinante-desconto img {
-    width:60px ;
+    width: 60px;
     transform: translate(114px, -250px);
   }
   .logo-footer img {
