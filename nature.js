@@ -4,21 +4,21 @@ seta.addEventListener("click", () => {
   window.scroll({ top: window.innerHeight });
 });
 
-var primeiroValor = document.querySelector("h3");
+var primeiroValor = document.querySelector("#pf1");
 
 var primeirovalor = document.querySelector("h3.p1");
 
-var primeiroDesconto = document.querySelector("h4");
+var primeiroDesconto = document.querySelector("#pf2");
 
 var primeirodesconto = document.querySelector("h4.p2");
 
-var segundoValor = document.querySelector("h5");
+var segundoValor = document.querySelector("#pf3");
 
 var segundovalor = document.querySelector("h5.p3");
 
 var segundoDesconto = document.querySelector(".a-vista");
 
-var segundodesconto = document.querySelector("#p4");
+var terceiroDesconto = document.querySelector("#p4");
 
 const valorprodutoA = "194.00";
 const descontoProdutoA = 0;
@@ -45,7 +45,7 @@ function boton() {
   segundovalor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoA;
 
   segundoDesconto.textContent = "ou R$ " + vistaProdutoA + " á vista";
-  segundodesconto.textContent = "ou R$ " + vistaProdutoA + " á vista";
+  terceiroDesconto.textContent = "ou R$ " + vistaProdutoA + " á vista";
   console.log("evento de click=1 d-bug ");
 
   if (
@@ -76,7 +76,7 @@ function botonfix() {
   segundovalor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoB;
 
   segundoDesconto.textContent = "ou R$ " + vistaProdutoB + " á vista";
-  segundodesconto.textContent = "ou R$ " + vistaProdutoB + " á vista";
+  terceiroDesconto.textContent = "ou R$ " + vistaProdutoB + " á vista";
   console.log("evento de click=2 d-bug ");
 
   if (
@@ -107,7 +107,7 @@ function botonlest() {
   segundovalor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoC;
 
   segundoDesconto.textContent = "ou R$ " + vistaProdutoC + " á vista";
-  segundodesconto.textContent = "ou R$ " + vistaProdutoC + " á vista";
+  terceiroDesconto.textContent = "ou R$ " + vistaProdutoC + " á vista";
   console.log("evento de click=3 d-bug ");
 
   if (
