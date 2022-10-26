@@ -19,6 +19,7 @@ const btn2 = document.getElementById("b1");
 
 const btn3 = document.getElementById("c1");
 
+
 const valorprodutoA = "194.00";
 const descontoProdutoA = 0;
 const promocaoProdutoA = 21.75;
