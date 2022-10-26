@@ -5,15 +5,19 @@ seta.addEventListener("click", () => {
 });
 
 var primeiroValor = document.querySelector("h3");
+
 var primeirovalor = document.querySelector("h3.p1");
 
 var primeiroDesconto = document.querySelector("h4");
+
 var primeirodesconto = document.querySelector("h4.p2");
 
 var segundoValor = document.querySelector("h5");
+
 var segundovalor = document.querySelector("h5.p3");
 
 var segundoDesconto = document.querySelector(".a-vista");
+
 var segundodesconto = document.querySelector("#p4");
 
 const valorprodutoA = "194.00";
