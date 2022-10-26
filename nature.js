@@ -4,21 +4,13 @@ seta.addEventListener("click", () => {
   window.scroll({ top: window.innerHeight });
 });
 
-var primeiroValor = document.querySelector("h3");
+var primeiroValor = document.querySelector("h3.p1");
 
-var primeiroDesconto = document.querySelector("h4");
+var primeiroDesconto = document.querySelector("h4.p2");
 
-var segundoValor = document.querySelector("h5");
+var segundoValor = document.querySelector("h5.p3");
 
-var segundoDesconto = document.querySelector("#vista");
-
-
-const btn1 = document.getElementById("a1");
-
-const btn2 = document.getElementById("b1");
-
-const btn3 = document.getElementById("c1");
-
+var segundoDesconto = document.querySelector(".a-vista");
 
 const valorprodutoA = "194.00";
 const descontoProdutoA = 0;
@@ -35,49 +27,13 @@ const descontoProdutoC = 450.6;
 const promocaoProdutoC = 79.99;
 const vistaProdutoC = 713.4;
 
-btn1.addEventListener("click", function () {
-  primeiroValor.textContent = "R$ " + valorprodutoA + " por caixa";
-  primeiroDesconto.textContent = " ";
-  segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoA;
-  segundoDesconto.textContent = "ou R$ " + vistaProdutoA + " á vista";
-  console.log("evento de click=1 d-bug ");
-});
-
-btn2.addEventListener("click", () => {
+function botonfix() {
   primeiroValor.textContent = "R$ " + valorProdutoB + " por caixa";
   primeiroDesconto.textContent = "Economize " + " R$ " + descontoProdutoB;
   segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoB;
   segundoDesconto.textContent = "ou R$ " + vistaProdutoB + " á vista";
   console.log("evento de click=2 d-bug ");
-});
 
-btn3.addEventListener("click", () => {
-  primeiroValor.textContent = "R$ " + valorProdutoC + " por caixa";
-  primeiroDesconto.textContent = "Economize " + " R$ " + descontoProdutoC;
-  segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoC;
-  segundoDesconto.textContent = "ou R$ " + vistaProdutoC + " á vista";
-  console.log("evento de click=3 d-bug ");
-});
-
-function boton() {
-  if (
-    document.getElementById("suplemento").getAttribute("src") ==
-    "img/image11.jpg"
-  ) {
-    document.getElementById("suplemento").setAttribute("src", "img/aaox-1.png");
-  } else if (
-    document.getElementById("suplemento").getAttribute("src") !=
-    "img/image11.jpg"
-  ) {
-    document.getElementById("suplemento").setAttribute("src", "img/aaox-1.png");
-  } else {
-    document
-      .getElementById("suplemento")
-      .setAttribute("src", "img/image11.jpg");
-  }
-}
-
-function botonfix() {
   if (
     document.getElementById("suplemento").getAttribute("src") ==
     "img/image11.jpg"
@@ -96,6 +52,12 @@ function botonfix() {
 }
 
 function botonlest() {
+  primeiroValor.textContent = "R$ " + valorProdutoC + " por caixa";
+  primeiroDesconto.textContent = "Economize " + " R$ " + descontoProdutoC;
+  segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoC;
+  segundoDesconto.textContent = "ou R$ " + vistaProdutoC + " á vista";
+  console.log("evento de click=3 d-bug ");
+
   if (
     document.getElementById("suplemento").getAttribute("src") ==
     "img/image11.jpg"
